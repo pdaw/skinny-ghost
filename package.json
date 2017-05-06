@@ -1,0 +1,30 @@
+{
+    "name": "skinny-ghost",
+    "description": "The minimalistic and responsive theme based on Casper.",
+    "version": "0.1.0",
+    "engines": {
+        "ghost": ">=0.9.0 <1.0.0"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Piotr Dawidiuk",
+        "email": "piotr.dawidiuk@gmail.com",
+        "url": "http://www.bugging.io"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Personal Blogs"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pdaw/skinny-ghost.git"
+    },
+    "bugs": "https://github.com/pdaw/skinny-ghost/issues"
+}
