@@ -1729,12 +1729,14 @@ body.page-template .post-title {
    ========================================================================== */
 
 .site-footer {
-    position: relative;
-    margin: 8rem 0 0 0;
+    position: absolute;
     padding: 1rem 15px;
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
     line-height: 1.75em;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .site-footer a {
