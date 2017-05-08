@@ -1,0 +1,52 @@
+<div class="social">
+    <a href="{{@blog.url}}/about/" title="About me">
+      <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i style="color: #ffd21e;" class="fa fa-info fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+
+    <a href="https://stackoverflow.com" title="StackOverflow">
+      <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+
+    <a href="https://github.com" title="GitHub">
+       <span class="fa-stack">
+         <i class="fa fa-circle fa-stack-2x"></i>
+         <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+       </span>
+    </a>
+
+    {{#if @blog.facebook }}
+        <a href="{{facebook_url @blog.facebook}}" title="Facebook">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+    {{/if}}
+
+   <a href="https://linkedin.com" title="LinkedIn">
+    <span class="fa-stack">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+    </span>
+   </a>
+
+    <a href="{{@blog.url}}/rss/" title="RSS">
+      <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+
+    <a href="mailto:" title="Email me">
+        <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</div>
