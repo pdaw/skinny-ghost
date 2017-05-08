@@ -5,3 +5,4 @@ This is a minimalistic theme based on [Casper](https://github.com/TryGhost/Caspe
 ### Features:
 * Google Analytics (inject tracking code into `partials/google-analytics.hbs`)
 * Disqus (inject shortname into `partials/disqus.hbs`)
+* Social media links (edit links in `partials/social.hbs`)
